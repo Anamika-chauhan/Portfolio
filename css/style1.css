@@ -1,0 +1,182 @@
+body{
+    background-color: #d2e6f1;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    font-size: 1.8rem;  
+}
+
+h1{
+    margin: 35px 0 auto 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    color: #317a7a;
+}
+
+h2{
+    font-family: 'Sriracha', cursive;
+    color: #317a7a;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+    font-size: 1.5rem;
+    color: #11999E;
+    margin: 0 auto 0 auto;
+}
+
+hr{  
+    border: dotted rgb(107, 111, 121) 6px;
+    border-bottom: none; 
+    width: 6% ;
+    margin: 100px auto ;
+}
+
+p{
+    line-height: 1.5;
+}
+
+a{
+    margin: 10px 20px;
+    text-decoration: none;
+    color: #1568cf;
+    font-family: 'Sriracha', cursive;
+}
+
+a:hover{
+    color: whitesmoke;   
+}
+
+.main-container{
+    background-color: #a1d8f5; 
+    position: relative;
+    padding-top: 80px;
+}
+
+.cloud{
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    right: 280px;
+    top: 0;
+}
+
+/* do check paahad once this chnges of pos n btm one isnt shown by her */
+.pahad{
+    position: relative;
+    bottom: 30px;
+}
+
+.cloud2{
+    height: 200px;
+    width: 250px;
+    position: absolute; 
+    bottom:360px;
+    left: 180px;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container{
+    margin: 100px auto 0;
+    background-color: rgb(206 242 245);
+    padding: 3px 2px;
+}
+
+
+.skill-row{
+    width: 50%;
+    margin: 50px auto 80px auto; 
+    text-align: left;
+}
+
+.code-img{
+    margin-right: 15px;
+    margin-top: 55px;
+    width: 25%;
+    float: left;
+}
+
+.webd{
+    margin-right: 15px;
+    margin-top: 15px;
+    width: 25%;
+    float: left;
+}
+
+.girl{
+    margin-top: 20px;
+    width: 10%;
+}
+
+.cp1{
+    margin-left: 200px;
+}
+
+.cp2{
+    margin-left: 50px;
+}
+
+.cp3{
+    margin-left: 50px;
+}
+
+/*
+.btn {
+    background-color: #3498db;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 auto 35px auto;    
+  }
+
+  */
+
+  .btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999E);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Sriracha', cursive;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}  
+
+.intro{
+    width: 27%;
+    margin: auto ;
+}
+
+.contact-msg{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+/*  something wrong with copyright as its not gping down as her*/
+.copyright{
+    color: #11999e;
+    font-size: 1rem;
+    padding: 10px 0;
+}
