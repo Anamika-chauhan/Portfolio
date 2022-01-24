@@ -62,12 +62,6 @@ a:hover{
     top: 0;
 }
 
-/* do check paahad once this chnges of pos n btm one isnt shown by her */
-.pahad{
-    position: relative;
-    bottom: 30px;
-}
-
 .cloud2{
     height: 200px;
     width: 250px;
@@ -124,21 +118,7 @@ a:hover{
     margin-left: 50px;
 }
 
-/*
 .btn {
-    background-color: #3498db;
-    border-radius: 8px;
-    color: white;
-    padding: 10px 30px;
-    text-align: center;
-    display: inline-block;
-    font-size: 18px;
-    margin: 0 auto 35px auto;    
-  }
-
-  */
-
-  .btn {
     background: #11cdd4;
     background-image: -webkit-linear-gradient(top, #11cdd4, #11999E);
     background-image: -moz-linear-gradient(top, #11cdd4, #11999E);
@@ -153,9 +133,9 @@ a:hover{
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-  }
+ }
   
-  .btn:hover {
+ .btn:hover {
     background: #30e3cb;
     background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
@@ -174,7 +154,7 @@ a:hover{
     width: 40%;
     margin: 40px auto 60px;
 }
-/*  something wrong with copyright as its not gping down as her*/
+
 .copyright{
     color: #11999e;
     font-size: 1rem;
